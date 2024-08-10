@@ -1,0 +1,251 @@
+*{
+     font-family: Arial, Helvetica, sans-serif;
+     box-sizing: border-box;
+     margin: 0px;
+}
+
+                            /* nav bar */
+.navbar{
+     height: 60px;
+     background-color: #0f1111;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+
+}
+
+/* box 1 */
+
+.nav_logo{
+     height: 50px;
+     width: 100px;
+
+}
+.logo{
+     background: url(assets/amazon_logo.png);
+     height: 50px;
+     width: 100;
+     background-size: cover;
+}
+.border{
+     border: 1.5px solid transparent;
+     padding: 5px 0px;
+}
+.border:hover{
+     border: 1.5px solid white;
+     padding: 5px 0px;
+}
+
+/* box2 */
+.additional{
+     display: flex;
+     align-items: center;
+}
+.add_first{
+     margin-left: 15px;
+     font-size: 0.85rem;
+     opacity: 0.8;
+}
+.add_second{
+     margin-left: 3px;
+     font-size: 1rem;
+}
+
+/* box3 */
+
+.nav_search{
+     display: flex;
+     background-color: pink;
+     width: 620px;
+     height: 40px;
+     border-radius: 4px;
+     justify-content: space-evenly;
+}
+.search_select{
+     width: 60px;
+     background-color: #d2d2d2;
+     border: none;
+     border-top-left-radius: 4px;
+     border-bottom-left-radius: 4px;
+     text-align: center;
+}
+.search_input{
+     width: 100%;
+     font-size: 1rem;
+     border: none;
+}
+.search_icon{
+     width: 45px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #febd68;
+     border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+     font-size: 1.2rem;
+}
+
+/* box4 */
+
+.language{
+     width: 70px;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     color: #0f1111;
+}
+.flag{
+     background: url(assets/flag.png);
+     width: 21px;
+     background-size: cover;
+     height: 16px;
+}
+.flag_option{
+     width: 40px;
+     height: 20px;
+     border: none;
+     background-color: #0f1111;
+     color: white;
+}
+
+.flag_option option{
+     background-color: white;
+     color: black;
+     
+}
+
+/* box5 */
+
+span{
+     font-size: 0.7rem;
+}
+.nav_second{
+     font-size: 0.85rem;
+     font-weight: 700;
+}
+
+/* box6 */
+
+.nav_cart{
+     font-size: 1rem;
+     font-weight: 700;
+}
+
+.nav_cart i {
+     font-size: 30px;
+}
+
+
+                            /* Pannel */
+
+.pannel{
+     height: 37px;
+     background-color: #222f3d;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.pannel_menu i{
+     margin-left: 15px;
+     width: 18px;
+     height: 18px;
+}
+.pannel_ops {
+     width: 90%;
+}
+.pannel_ops  p{
+     margin-left: 30px;
+     display: inline;
+     font-size: 0.85rem;
+}
+
+                            /* Hero Section */
+.heroimage{
+     background: url(assets/hero_image.jpg);
+     height: 340px;
+     width: 100%;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.hero_msg {
+     background-color: white;
+     height: 40px;
+     width: 95%;
+     display: flex;
+     align-items: center;
+     margin-top: 280px;
+     font-size: 0.90rem;
+     display: flex;
+     justify-content: center;
+}
+
+.hero_msg a{
+     text-decoration: none;
+     color: #007185;
+
+}
+
+                            /* Content Section */
+
+.content{
+     display: flex;
+     justify-content: space-evenly;
+     background-color: #e2e7e6;
+     flex-wrap: wrap;
+}
+
+.box{
+     background-color: white;
+     height: 400px;
+     width: 23%;
+     margin-top: 1rem;
+     padding: 20px 16px 15px 16px;
+}
+
+.box_img{
+     height: 300px;
+     background-size: cover;
+     margin: 1rem 0rem;
+}
+
+.box a{
+     text-decoration: none;
+     color: #007185;
+     font-size: 0.85rem;
+}
+
+                            /* Footer Section */
+
+footer{
+     margin-top: 20px;
+}
+
+.foot_pannel1{
+     background-color: #37475a;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.foot_pannel1 a{
+     color: white;
+     text-decoration: none;
+     font-size: 0.85rem;
+}
+
+.foot_pannel2{
+     display: flex;
+     justify-content: space-evenly;
+     height: 290px;
+}
+
+ul{
+     display: inline;
+}

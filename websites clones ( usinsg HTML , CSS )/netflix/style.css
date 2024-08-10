@@ -1,0 +1,68 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: cursive;
+}
+.main{
+     background: url(assets/bg.jpg);
+     height: 80vh;
+     position: relative;
+     background-position: center center;
+     background-size: max(1200px,100vw);
+     background-repeat: no-repeat;
+
+}
+
+.main .box{
+     height: 80vh;
+     width: 100%;
+     background-color: black;
+     opacity: 0.44;
+     position: absolute;
+     top: 0;
+}
+
+nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 70vw;
+     margin: auto;
+     height: 62px;
+}
+
+.nav_img{
+     width: 120px;
+     position: relative;
+     z-index: 1;
+     
+}
+
+nav button{
+     position: relative;
+     z-index: 1;
+
+}
+
+.hero{
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     position: relative;
+     flex-direction: column;
+}
+
+.hero :first-child{
+     font-size: 4.5vw;
+     font-weight: 700;
+     
+}
+
+.hero span{
+     font-size: 2.5vw;
+     font-weight: 400;
+     line-height: 70px;
+
+}
